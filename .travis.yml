@@ -1,0 +1,7 @@
+sudo: true
+before_script: bash ./init.sh
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/UVicNotes/ELEC-360.git
+  - secure: RROWz1ErkqSpksYSVLR/dvywiMYM3yw913Rw5C73M0R18UO6kVbeHhcd2mkDUADJhHHFQPh7w5MdSOUu4NLM+Wc2GGE+pv1qxU84g5B0aLwLXVGoP27KwEJ8pAkvWsBD7utBYq0q2yy8og86denOpQp7sejP6L06fuxLeaoU3EN+SlTcCRYUgFc95s/syidbfJjbnfma12S4wHonn95riBpafdnbocF9pj4xHwlLR0sbaI8osIcGTzcu1VYe8ADoHHhp53+RIpB+qqt3iXAWIkry4K+a0wt+jwLCb3H4+u+WH71iz5riCJdTiypPimzspi0zcEwiSz3qrFeCxYJHP5xZzPvODFATqzasuhfSxCDhzVZcv8xuDNfuS7jXOjxnTMaPm6Np8bOgwCZxm0mcqgHcIPaH/AErUewTD3Ulf3XpxOeTew3zcMGiZVuoQL1pOoqYafps/Om0+mqHrpRC7LIarTe/lM0tGIqThs7lsuwUqek9oQZ2qk+gnL+vNa3TJ/Fi32OzNrBf95ykqMYjvNCJ3fPz/XlGkQiWZowTzm0EJyM5OKL3HdQq68XRz8LMslcBRGvz9/X7tPZZbxu1s4zuoH71hyqV3UYecyqay/z7lfi7PyzvH2/TIG5AgNPqJKYtQGkwn9s/m2UDL+o6CUErwR+qkSceDETVtuRaFw0=
