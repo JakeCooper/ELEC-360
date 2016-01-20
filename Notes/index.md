@@ -1,4 +1,4 @@
-# ELEC 360 ![](img/uvicLogo.jpeg)
+# ![](img/uvicLogo.jpeg) ELEC 360 
 ## [Course Website](http://www.ece.uvic.ca/~sneville/Teaching/index.shtml)
 - _Instructor_: Dr. Stephen W.  Neville
 - _Office:_ EOW 441 or  ELW A228
