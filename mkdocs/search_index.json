@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "ELEC 360\n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: sneville @ ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360/ ELEC#^)\n\n\nLecture\n: Tues, Wed, Fri - 9:30 am - 10:20 - Elliott Building 062\n\n\n\n\nContact\n\n\nLabs\n\n\nSection B01:\n\n\nJan 26th, Feb 15th, Mar 1st, and Mar 15th\n\n\n\nSection B02:\n\n\nFeb 2nd, Feb 23rd, Mar 8th, and Mar 22nd\n\n\n\nSection B03:\n\n\nJan 29th, Feb 19th, Mar 4th, and Mar 18th\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
+            "text": "ELEC 360\n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: \nsneville@ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360\n/\nELEC#^)\n\n\nLecture\n: Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM\n\n\nElliott Building 062\n\n\n\n\n\n\n\n\nLabs\n\n\n\n\n\n\n\n\nSection\n\n\nLab 1\n\n\nLab 2\n\n\nLab 3\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\nB01\n\n\nJan 26th\n\n\nFeb 15th\n\n\nMar 1st\n\n\nMar 15th\n\n\n\n\n\n\nB02\n\n\nFeb 2nd\n\n\nFeb 23rd\n\n\nMar 8th\n\n\nMar 22nd\n\n\n\n\n\n\nB03\n\n\nJan 29th\n\n\nFeb 19th\n\n\nMar 4th\n\n\nMar 18th\n\n\n\n\n\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
             "title": "Home"
         }, 
         {
@@ -12,17 +12,12 @@
         }, 
         {
             "location": "/#course-website", 
-            "text": "Instructor : Dr. Stephen W.  Neville  Office:  EOW 441 or  ELW A228  Email : sneville @ ece.uvic.ca  All   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts    Website Access :  elec360/ ELEC#^)  Lecture : Tues, Wed, Fri - 9:30 am - 10:20 - Elliott Building 062", 
+            "text": "Instructor : Dr. Stephen W.  Neville  Office:  EOW 441 or  ELW A228  Email :  sneville@ece.uvic.ca  All   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts    Website Access :  elec360 / ELEC#^)  Lecture : Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM  Elliott Building 062", 
             "title": "Course Website"
         }, 
         {
-            "location": "/#contact", 
-            "text": "", 
-            "title": "Contact"
-        }, 
-        {
             "location": "/#labs", 
-            "text": "Section B01:  Jan 26th, Feb 15th, Mar 1st, and Mar 15th  Section B02:  Feb 2nd, Feb 23rd, Mar 8th, and Mar 22nd  Section B03:  Jan 29th, Feb 19th, Mar 4th, and Mar 18th", 
+            "text": "Section  Lab 1  Lab 2  Lab 3  Lab 4      B01  Jan 26th  Feb 15th  Mar 1st  Mar 15th    B02  Feb 2nd  Feb 23rd  Mar 8th  Mar 22nd    B03  Jan 29th  Feb 19th  Mar 4th  Mar 18th", 
             "title": "Labs"
         }, 
         {
