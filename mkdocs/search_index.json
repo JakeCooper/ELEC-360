@@ -31,6 +31,46 @@
             "title": "Assessment:"
         }, 
         {
+            "location": "/2016-01-15/", 
+            "text": "Lecture 5 - Notes\n\n\nJanuary 19th, 2016\n\n\nTypes of Control Systems\n\n\nProportional Control\n\n\n\n\nThe control system reacts to errors proportionally\n\n\n\n\nClassifications of Industrial Controllers.\n\n\n\n\nAutomatic Controller\n an automatic controller compares the actual value of the plant output with the reference input (desired value) determines the deviation and produces a control signal that will reduce the deviation to zero or to a small value\n\n\n    e(t) \\text { or } E(S) \\text{ is the threshold of the actuating signal } \\\\\\\\\n    u(t) \\text{ or } U(s) \\text{ is the output of the controller }\n\n\n\n\n\n\n\nTwo-position (on\u2013off controllers)\n\n\n\n\nElement being controlled only has two states (typically on or off)\n\n\nSimple and inexpensive so they are widely used\n\n\ndifferential gap\n: The range through which the actuating error signal must move before the switching occurs\n\n\nThe thermostat of a room set at 20C might turn on at 18C and turn off at 22 having a differential gap of 4C\n\n\nThe basic premise is the system turns on when a threshold has been reached and off when the threshold reaches a desired value\n\n\n\n\n\n\n\n    u(t) = U_{1}, \\text{for } e(t) > 0 \\\\\\\\\n    = U_{2}, \\text{for} e(t) < 0 \\\\\\\\\n    U_{1} \\text{ is the ON value } \\\\\\\\\n    U_{2} \\text{ is the OFF value}\n\n\n\n\n\nProportional controllers\n\n\n\n\nA linear feedback control system where the controller output is proportional to the error signal\n\n\nUsed when a system is a relatively long response time\n\n\nWill control a system better because the error can be dampened before there is an output\n\n\n\n\n\n\nIs essentially an amplifier with an adjustable gain\n\n\n\n\n$$\n    u(t) = K_{p}e(t) \\\\\n    \\mathscr{L} \\text{{$u(t)$}} =  \\frac{U(s)}{E(s)} = K_{p} \\\\\n    K_{p} = \\text{proportional gain}\n$$\n\n\nIntegral controllers\n\n\n\n\nThe value of the controller output u(t) is changed at a rate proportional to the actuating error signal e(t)\n\n\nThis process starts slowly but overtime it begins to really eliminate errors\n\n\n\n\n\n\n\n    \\frac{du(t)}{dt} = K_{i} e(t) \\\\\\\\\n    \\text{ or } \\\\\\\\\n    u(t) = K_{i}\\int{0}^{t}e(t)dt\n\n\n\n\n\nDerivative Controller\n\n\n\n\nThe controller output is proportional to the rate of change of the measurement or error\n\n\nThe controller output is calculated by the rate of change of the deviation or error with time\n\n\n\n\n\n\n\n    u(t) = - k_{D} \\frac{dEr}{dt}\n\n\n\n\n\nAdditional Classifications of Industrial Controllers\n\n\nThe above controllers can be combined (through addition) to be the below combinations\n\n\n\n\nProportional-plus-integral controllers\n\n\nProportional-plus-derivative controllers\n\n\nProportional-plus-integral-plus-derivative controllers", 
+            "title": "2016 01 15"
+        }, 
+        {
+            "location": "/2016-01-15/#lecture-5-notes", 
+            "text": "January 19th, 2016", 
+            "title": "Lecture 5 - Notes"
+        }, 
+        {
+            "location": "/2016-01-15/#types-of-control-systems", 
+            "text": "Proportional Control   The control system reacts to errors proportionally", 
+            "title": "Types of Control Systems"
+        }, 
+        {
+            "location": "/2016-01-15/#classifications-of-industrial-controllers", 
+            "text": "Automatic Controller  an automatic controller compares the actual value of the plant output with the reference input (desired value) determines the deviation and produces a control signal that will reduce the deviation to zero or to a small value \n    e(t) \\text { or } E(S) \\text{ is the threshold of the actuating signal } \\\\\\\\\n    u(t) \\text{ or } U(s) \\text{ is the output of the controller }    Two-position (on\u2013off controllers)   Element being controlled only has two states (typically on or off)  Simple and inexpensive so they are widely used  differential gap : The range through which the actuating error signal must move before the switching occurs  The thermostat of a room set at 20C might turn on at 18C and turn off at 22 having a differential gap of 4C  The basic premise is the system turns on when a threshold has been reached and off when the threshold reaches a desired value    \n    u(t) = U_{1}, \\text{for } e(t) > 0 \\\\\\\\\n    = U_{2}, \\text{for} e(t) < 0 \\\\\\\\\n    U_{1} \\text{ is the ON value } \\\\\\\\\n    U_{2} \\text{ is the OFF value}", 
+            "title": "Classifications of Industrial Controllers."
+        }, 
+        {
+            "location": "/2016-01-15/#proportional-controllers", 
+            "text": "A linear feedback control system where the controller output is proportional to the error signal  Used when a system is a relatively long response time  Will control a system better because the error can be dampened before there is an output    Is essentially an amplifier with an adjustable gain   $$\n    u(t) = K_{p}e(t) \\\\\n    \\mathscr{L} \\text{{$u(t)$}} =  \\frac{U(s)}{E(s)} = K_{p} \\\\\n    K_{p} = \\text{proportional gain}\n$$", 
+            "title": "Proportional controllers"
+        }, 
+        {
+            "location": "/2016-01-15/#integral-controllers", 
+            "text": "The value of the controller output u(t) is changed at a rate proportional to the actuating error signal e(t)  This process starts slowly but overtime it begins to really eliminate errors    \n    \\frac{du(t)}{dt} = K_{i} e(t) \\\\\\\\\n    \\text{ or } \\\\\\\\\n    u(t) = K_{i}\\int{0}^{t}e(t)dt", 
+            "title": "Integral controllers"
+        }, 
+        {
+            "location": "/2016-01-15/#derivative-controller", 
+            "text": "The controller output is proportional to the rate of change of the measurement or error  The controller output is calculated by the rate of change of the deviation or error with time    \n    u(t) = - k_{D} \\frac{dEr}{dt}", 
+            "title": "Derivative Controller"
+        }, 
+        {
+            "location": "/2016-01-15/#additional-classifications-of-industrial-controllers", 
+            "text": "The above controllers can be combined (through addition) to be the below combinations   Proportional-plus-integral controllers  Proportional-plus-derivative controllers  Proportional-plus-integral-plus-derivative controllers", 
+            "title": "Additional Classifications of Industrial Controllers"
+        }, 
+        {
             "location": "/2016-01-19/", 
             "text": "Lecture 6 - Notes\n\n\nJanuary 19th, 2016\n\n\nBlock Diagrams\n\n\n\n\nA block diagram is a diagram of a system in which the system is represented as a a series of connected systems.\n\n\n\n\nBasic Structures\n\n\nSeries (Cascade)\n\n\n\n\nDefined by\n\n\n\n\n\n\n\nY(s) = G(s)X_{1}(s) + G_{2}(s)X_{2}(s)\n\n\n\n\n\n\n\nOpen Loop\n\n\n\n\nNo feedback loop therefore any disturbance or change in conditions may reduce the ability to complete the desired task\n\n\n\n\n\n\nParallel\n\n\n\n\n\n\nDefined by\n\n\nY(S) = G_{1}(s)G_{2}(s)X(s)\n\n\n\n\n\n\n\nClosed Loop (Feedback Loop)\n\n\n\n\nThe output of a system is routed back as an input to the system (the system \nfeeds back\n into itself)\n\n\n\n\n\n\n\n\nOpen-loop transfer function\n\n\n\n\n\n\n\n\\frac{Outputs}{Inputs} = \\frac{C(s)}{R(s)} = \\frac{G(s)}{1 + G(s)H(s)}\n\n\n\n\n\nSignal Flow Graph Rules\n\n\n\n\nSignal-Flow Graph (Mason Graph)\n\n\n\n\nSpecialized simplification of a block diagram\n\n\nSumming symbols and takeoff points are eliminated and are replaced with nodes\n\n\nThe components or subsystems are", 
             "title": "2016 01 19"
@@ -52,13 +92,13 @@
         }, 
         {
             "location": "/2016-01-20/", 
-            "text": "Lecture 6 - Notes\n\n\nJanuary 19th, 2016\n\n\n\n\n\n\n\n\nTerm\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nNode\n\n\nPoint representing a variable or a signal\n\n\n\n\n\n\nSource\n\n\nA node without incoming branches (input node)\n\n\n\n\n\n\nSink\n\n\nA node with incoming branches only (output nodes)\n\n\n\n\n\n\nMixed Node\n\n\nBoth incoming and outgoing nodes\n\n\n\n\n\n\nPath\n\n\nConnected branches in the direction of the branch arrows. If a node is crossed more than once it is closed\n\n\n\n\n\n\nForward Path\n\n\nFrom input node to output node without crossing nodes more than once\n\n\n\n\n\n\nLoop\n\n\nClosed path\n\n\n\n\n\n\nNon touching loops\n\n\nLoops that do not possess common nodes\n\n\n\n\n\n\n\n\nProperties of Signal Flow Graphs\n\n\n\n\nA branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected\n\n\nA node adds the signals of all incoming branches and transmits this sum to all outgoing branches\n\n\nA mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.\n\n\nFor a given system the signal flow graph is not unique\n\n\n\n\nMason's Formula\n\n\n\n\n\n    p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}\n\n\n\n\n\nState-Space Description\n\n\n\n\nTODO\n\n\n\n\nCanonical State-Space Representations of Continuous Systems\n\n\n\n\nTODO", 
+            "text": "Lecture 7 - Notes\n\n\nJanuary 19th, 2016\n\n\n\n\n\n\n\n\nTerm\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nNode\n\n\nPoint representing a variable or a signal\n\n\n\n\n\n\nSource\n\n\nA node without incoming branches (input node)\n\n\n\n\n\n\nSink\n\n\nA node with incoming branches only (output nodes)\n\n\n\n\n\n\nMixed Node\n\n\nBoth incoming and outgoing nodes\n\n\n\n\n\n\nPath\n\n\nConnected branches in the direction of the branch arrows. If a node is crossed more than once it is closed\n\n\n\n\n\n\nForward Path\n\n\nFrom input node to output node without crossing nodes more than once\n\n\n\n\n\n\nLoop\n\n\nClosed path\n\n\n\n\n\n\nNon touching loops\n\n\nLoops that do not possess common nodes\n\n\n\n\n\n\n\n\nProperties of Signal Flow Graphs\n\n\n\n\nA branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected\n\n\nA node adds the signals of all incoming branches and transmits this sum to all outgoing branches\n\n\nA mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.\n\n\nFor a given system the signal flow graph is not unique\n\n\n\n\nMason's Formula\n\n\n\n\n\n    p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}\n\n\n\n\n\nState-Space Description\n\n\n\n\nTODO\n\n\n\n\nCanonical State-Space Representations of Continuous Systems\n\n\n\n\nTODO", 
             "title": "2016 01 20"
         }, 
         {
-            "location": "/2016-01-20/#lecture-6-notes", 
+            "location": "/2016-01-20/#lecture-7-notes", 
             "text": "January 19th, 2016     Term  Definition      Node  Point representing a variable or a signal    Source  A node without incoming branches (input node)    Sink  A node with incoming branches only (output nodes)    Mixed Node  Both incoming and outgoing nodes    Path  Connected branches in the direction of the branch arrows. If a node is crossed more than once it is closed    Forward Path  From input node to output node without crossing nodes more than once    Loop  Closed path    Non touching loops  Loops that do not possess common nodes", 
-            "title": "Lecture 6 - Notes"
+            "title": "Lecture 7 - Notes"
         }, 
         {
             "location": "/2016-01-20/#properties-of-signal-flow-graphs", 

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2016 01 15 - ELEC 360</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "2016 01 15";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> ELEC 360</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">2016 01 15</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#lecture-5-notes">Lecture 5 - Notes</a></li>
+                
+                    <li><a class="toctree-l4" href="#types-of-control-systems">Types of Control Systems</a></li>
+                
+                    <li><a class="toctree-l4" href="#classifications-of-industrial-controllers">Classifications of Industrial Controllers.</a></li>
+                
+                    <li><a class="toctree-l4" href="#proportional-controllers">Proportional controllers</a></li>
+                
+                    <li><a class="toctree-l4" href="#integral-controllers">Integral controllers</a></li>
+                
+                    <li><a class="toctree-l4" href="#derivative-controller">Derivative Controller</a></li>
+                
+                    <li><a class="toctree-l4" href="#additional-classifications-of-industrial-controllers">Additional Classifications of Industrial Controllers</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../2016-01-19/">2016 01 19</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../2016-01-20/">2016 01 20</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">ELEC 360</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>2016 01 15</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/UVicNotes/ELEC-360" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="lecture-5-notes">Lecture 5 - Notes</h1>
+<p>January 19th, 2016</p>
+<h2 id="types-of-control-systems">Types of Control Systems</h2>
+<h3 id="proportional-control">Proportional Control</h3>
+<ul>
+<li>The control system reacts to errors proportionally</li>
+</ul>
+<h2 id="classifications-of-industrial-controllers">Classifications of Industrial Controllers.</h2>
+<ul>
+<li><strong>Automatic Controller</strong> an automatic controller compares the actual value of the plant output with the reference input (desired value) determines the deviation and produces a control signal that will reduce the deviation to zero or to a small value
+<script type="math/tex; mode=display">
+    e(t) \text { or } E(S) \text{ is the threshold of the actuating signal } \\\\
+    u(t) \text{ or } U(s) \text{ is the output of the controller }
+</script>
+</li>
+</ul>
+<h3 id="two-position-onoff-controllers">Two-position (on–off controllers)</h3>
+<ul>
+<li>Element being controlled only has two states (typically on or off)</li>
+<li>Simple and inexpensive so they are widely used</li>
+<li><strong>differential gap</strong>: The range through which the actuating error signal must move before the switching occurs</li>
+<li>The thermostat of a room set at 20C might turn on at 18C and turn off at 22 having a differential gap of 4C</li>
+<li>The basic premise is the system turns on when a threshold has been reached and off when the threshold reaches a desired value</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+    u(t) = U_{1}, \text{for } e(t) > 0 \\\\
+    = U_{2}, \text{for} e(t) < 0 \\\\
+    U_{1} \text{ is the ON value } \\\\
+    U_{2} \text{ is the OFF value}
+</script>
+</p>
+<h2 id="proportional-controllers">Proportional controllers</h2>
+<ul>
+<li>A linear feedback control system where the controller output is proportional to the error signal</li>
+<li>Used when a system is a relatively long response time<ul>
+<li>Will control a system better because the error can be dampened before there is an output</li>
+</ul>
+</li>
+<li>Is essentially an amplifier with an adjustable gain</li>
+</ul>
+<p>$$
+    u(t) = K_{p}e(t) \\
+    \mathscr{L} \text{{$u(t)$}} =  \frac{U(s)}{E(s)} = K_{p} \\
+    K_{p} = \text{proportional gain}
+$$</p>
+<h2 id="integral-controllers">Integral controllers</h2>
+<ul>
+<li>The value of the controller output u(t) is changed at a rate proportional to the actuating error signal e(t)</li>
+<li>This process starts slowly but overtime it begins to really eliminate errors</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+    \frac{du(t)}{dt} = K_{i} e(t) \\\\
+    \text{ or } \\\\
+    u(t) = K_{i}\int{0}^{t}e(t)dt
+</script>
+</p>
+<h2 id="derivative-controller">Derivative Controller</h2>
+<ul>
+<li>The controller output is proportional to the rate of change of the measurement or error</li>
+<li>The controller output is calculated by the rate of change of the deviation or error with time</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+    u(t) = - k_{D} \frac{dEr}{dt}
+</script>
+</p>
+<h2 id="additional-classifications-of-industrial-controllers">Additional Classifications of Industrial Controllers</h2>
+<p>The above controllers can be combined (through addition) to be the below combinations</p>
+<ol>
+<li>Proportional-plus-integral controllers</li>
+<li>Proportional-plus-derivative controllers</li>
+<li>Proportional-plus-integral-plus-derivative controllers</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../2016-01-19/" class="btn btn-neutral float-right" title="2016 01 19"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../2016-01-19/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
