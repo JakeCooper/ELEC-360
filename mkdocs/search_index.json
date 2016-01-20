@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "ELEC 360 \n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: \nsneville@ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360\n/\nELEC#^)\n\n\nLecture\n: Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM\n\n\nElliott Building 062\n\n\n\n\n\n\n\n\nLabs\n\n\n\n\n\n\n\n\nSection\n\n\nLab 1\n\n\nLab 2\n\n\nLab 3\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\nB01\n\n\nJan 26th\n\n\nFeb 15th\n\n\nMar 1st\n\n\nMar 15th\n\n\n\n\n\n\nB02\n\n\nFeb 2nd\n\n\nFeb 23rd\n\n\nMar 8th\n\n\nMar 22nd\n\n\n\n\n\n\nB03\n\n\nJan 29th\n\n\nFeb 19th\n\n\nMar 4th\n\n\nMar 18th\n\n\n\n\n\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
+            "text": "ELEC 360\n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: sneville @ ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360/ ELEC#^)\n\n\nLecture\n: Tues, Wed, Fri - 9:30 am - 10:20 - Elliott Building 062\n\n\n\n\nContact\n\n\nLabs\n\n\nSection B01:\n\n\nJan 26th, Feb 15th, Mar 1st, and Mar 15th\n\n\n\nSection B02:\n\n\nFeb 2nd, Feb 23rd, Mar 8th, and Mar 22nd\n\n\n\nSection B03:\n\n\nJan 29th, Feb 19th, Mar 4th, and Mar 18th\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
             "title": "Home"
         }, 
         {
@@ -12,12 +12,17 @@
         }, 
         {
             "location": "/#course-website", 
-            "text": "Instructor : Dr. Stephen W.  Neville  Office:  EOW 441 or  ELW A228  Email :  sneville@ece.uvic.ca  All   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts    Website Access :  elec360 / ELEC#^)  Lecture : Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM  Elliott Building 062", 
+            "text": "Instructor : Dr. Stephen W.  Neville  Office:  EOW 441 or  ELW A228  Email : sneville @ ece.uvic.ca  All   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts    Website Access :  elec360/ ELEC#^)  Lecture : Tues, Wed, Fri - 9:30 am - 10:20 - Elliott Building 062", 
             "title": "Course Website"
         }, 
         {
+            "location": "/#contact", 
+            "text": "", 
+            "title": "Contact"
+        }, 
+        {
             "location": "/#labs", 
-            "text": "Section  Lab 1  Lab 2  Lab 3  Lab 4      B01  Jan 26th  Feb 15th  Mar 1st  Mar 15th    B02  Feb 2nd  Feb 23rd  Mar 8th  Mar 22nd    B03  Jan 29th  Feb 19th  Mar 4th  Mar 18th", 
+            "text": "Section B01:  Jan 26th, Feb 15th, Mar 1st, and Mar 15th  Section B02:  Feb 2nd, Feb 23rd, Mar 8th, and Mar 22nd  Section B03:  Jan 29th, Feb 19th, Mar 4th, and Mar 18th", 
             "title": "Labs"
         }, 
         {
@@ -29,6 +34,56 @@
             "location": "/#assessment", 
             "text": "Task  Weight      Assignments  10%    Lab  10%    Midterm  30%    Final  50%", 
             "title": "Assessment:"
+        }, 
+        {
+            "location": "/2016-01-19/", 
+            "text": "Lecture 6 - Notes\n\n\nJanuary 19th, 2016\n\n\nBlock Diagrams\n\n\n\n\nA block diagram is a diagram of a system in which the system is represented as a a series of connected systems.\n\n\n\n\nBasic Structures\n\n\nSeries (Cascade)\n\n\n\n\nDefined by\n\n\n\n\n\n\n\nY(s) = G(s)X_{1}(s) + G_{2}(s)X_{2}(s)\n\n\n\n\n\n\n\nOpen Loop\n\n\n\n\nNo feedback loop therefore any disturbance or change in conditions may reduce the ability to complete the desired task\n\n\n\n\n\n\nParallel\n\n\n\n\n\n\nDefined by\n\n\nY(S) = G_{1}(s)G_{2}(s)X(s)\n\n\n\n\n\n\n\nClosed Loop (Feedback Loop)\n\n\n\n\nThe output of a system is routed back as an input to the system (the system \nfeeds back\n into itself)\n\n\n\n\n\n\n\n\nOpen-loop transfer function\n\n\n\n\n\n\n\n\\frac{Outputs}{Inputs} = \\frac{C(s)}{R(s)} = \\frac{G(s)}{1 + G(s)H(s)}\n\n\n\n\n\nSignal Flow Graph Rules\n\n\n\n\nSignal-Flow Graph (Mason Graph)\n\n\n\n\nSpecialized simplification of a block diagram\n\n\nSumming symbols and takeoff points are eliminated and are replaced with nodes\n\n\nThe components or subsystems are", 
+            "title": "2016 01 19"
+        }, 
+        {
+            "location": "/2016-01-19/#lecture-6-notes", 
+            "text": "January 19th, 2016", 
+            "title": "Lecture 6 - Notes"
+        }, 
+        {
+            "location": "/2016-01-19/#block-diagrams", 
+            "text": "A block diagram is a diagram of a system in which the system is represented as a a series of connected systems.   Basic Structures  Series (Cascade)   Defined by    \nY(s) = G(s)X_{1}(s) + G_{2}(s)X_{2}(s)    Open Loop   No feedback loop therefore any disturbance or change in conditions may reduce the ability to complete the desired task    Parallel    Defined by \nY(S) = G_{1}(s)G_{2}(s)X(s)    Closed Loop (Feedback Loop)   The output of a system is routed back as an input to the system (the system  feeds back  into itself)     Open-loop transfer function    \n\\frac{Outputs}{Inputs} = \\frac{C(s)}{R(s)} = \\frac{G(s)}{1 + G(s)H(s)}   Signal Flow Graph Rules", 
+            "title": "Block Diagrams"
+        }, 
+        {
+            "location": "/2016-01-19/#signal-flow-graph-mason-graph", 
+            "text": "Specialized simplification of a block diagram  Summing symbols and takeoff points are eliminated and are replaced with nodes  The components or subsystems are", 
+            "title": "Signal-Flow Graph (Mason Graph)"
+        }, 
+        {
+            "location": "/2016-01-20/", 
+            "text": "Lecture 6 - Notes\n\n\nJanuary 19th, 2016\n\n\n\n\n\n\n\n\nTerm\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nNode\n\n\nPoint representing a variable or a signal\n\n\n\n\n\n\nSource\n\n\nA node without incoming branches (input node)\n\n\n\n\n\n\nSink\n\n\nA node with incoming branches only (output nodes)\n\n\n\n\n\n\nMixed Node\n\n\nBoth incoming and outgoing nodes\n\n\n\n\n\n\nPath\n\n\nConnected branches in the direction of the branch arrows. If a node is crossed more than once it is closed\n\n\n\n\n\n\nForward Path\n\n\nFrom input node to output node without crossing nodes more than once\n\n\n\n\n\n\nLoop\n\n\nClosed path\n\n\n\n\n\n\nNon touching loops\n\n\nLoops that do not possess common nodes\n\n\n\n\n\n\n\n\nProperties of Signal Flow Graphs\n\n\n\n\nA branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected\n\n\nA node adds the signals of all incoming branches and transmits this sum to all outgoing branches\n\n\nA mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.\n\n\nFor a given system the signal flow graph is not unique\n\n\n\n\nMason's Formula\n\n\n\n\n\n    p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}\n\n\n\n\n\nState-Space Description\n\n\n\n\nTODO\n\n\n\n\nCanonical State-Space Representations of Continuous Systems\n\n\n\n\nTODO", 
+            "title": "2016 01 20"
+        }, 
+        {
+            "location": "/2016-01-20/#lecture-6-notes", 
+            "text": "January 19th, 2016     Term  Definition      Node  Point representing a variable or a signal    Source  A node without incoming branches (input node)    Sink  A node with incoming branches only (output nodes)    Mixed Node  Both incoming and outgoing nodes    Path  Connected branches in the direction of the branch arrows. If a node is crossed more than once it is closed    Forward Path  From input node to output node without crossing nodes more than once    Loop  Closed path    Non touching loops  Loops that do not possess common nodes", 
+            "title": "Lecture 6 - Notes"
+        }, 
+        {
+            "location": "/2016-01-20/#properties-of-signal-flow-graphs", 
+            "text": "A branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected  A node adds the signals of all incoming branches and transmits this sum to all outgoing branches  A mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.  For a given system the signal flow graph is not unique", 
+            "title": "Properties of Signal Flow Graphs"
+        }, 
+        {
+            "location": "/2016-01-20/#masons-formula", 
+            "text": "p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}", 
+            "title": "Mason's Formula"
+        }, 
+        {
+            "location": "/2016-01-20/#state-space-description", 
+            "text": "TODO", 
+            "title": "State-Space Description"
+        }, 
+        {
+            "location": "/2016-01-20/#canonical-state-space-representations-of-continuous-systems", 
+            "text": "TODO", 
+            "title": "Canonical State-Space Representations of Continuous Systems"
         }
     ]
 }
