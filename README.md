@@ -1,4 +1,4 @@
-# ELEC 310
+# ELEC 360
 
 [![Build Status](https://travis-ci.org/UVicNotes/ELEC-360.svg?branch=master)](https://travis-ci.org/UVicNotes/ELEC-360)
 
