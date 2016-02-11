@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Andrei Taylor">
+  
+  <title>Chapter3 - ELEC 360</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Chapter3";
+    var mkdocs_page_input_path = "chapter3.md";
+    var mkdocs_page_url = "/chapter3/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> ELEC 360</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../chapter2/">Chapter2</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Chapter3</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#chapter-3">Chapter 3</a></li>
+                
+                    <li><a class="toctree-l4" href="#3-2-mathematical-modeling-of-mechanical-systems">3-2 Mathematical Modeling of Mechanical Systems</a></li>
+                
+                    <li><a class="toctree-l4" href="#mathematical-modeling-of-electrical-systems">Mathematical Modeling of Electrical Systems</a></li>
+                
+                    <li><a class="toctree-l4" href="#lrc-circuit">LRC Circuit</a></li>
+                
+                    <li><a class="toctree-l4" href="#operational-amplifier-op-amp">Operational Amplifier (Op amp)</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../chapter4/">Chapter4</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">ELEC 360</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Chapter3</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/UVicNotes/ELEC-360" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="chapter-3">Chapter 3</h1>
+<p>This chapter looks at mathematical modeling of mechanical systems and electrical systems.</p>
+<p><strong> Impeadence </strong> : is the measure of the opposition that a circuit presents to a current when a voltage is applied.</p>
+<h2 id="3-2-mathematical-modeling-of-mechanical-systems">3-2 Mathematical Modeling of Mechanical Systems</h2>
+<p><img alt="springs in parallel and in series" src="../img/springSystem.jpeg" /></p>
+<p>To obtain the equivalent spring constant from the above image</p>
+<h3 id="in-parallel">In parallel</h3>
+<p>
+<script type="math/tex; mode=display">
+    k_1x + k_2x = F = k_{eq}x \\\\
+    k_{eq} = a_1 + k_2
+</script>
+</p>
+<h3 id="in-series">in series</h3>
+<p>
+<script type="math/tex; mode=display">
+    k_{eq} = \frac{1}{\frac{1}{k_{1}} + \frac{1}{k_2}}
+</script>
+</p>
+<p>A <strong>dashpot</strong> is a device that provides viscous friction. The equation is modeled identically to the spring coefficients except that the derivative is the</p>
+<p>The Viscous coefficient $ b $ follows a similar pattern</p>
+<p><img alt="" src="../img/dampers.jpeg" /></p>
+<h3 id="in-parallel_1">In parallel</h3>
+<p>
+<script type="math/tex; mode=display">
+    f = b_{eq} (\dot{y} - \dot{x}) \\\\
+    b_{eq} = b_1 + b_2
+</script>
+</p>
+<h3 id="in-series_1">In Series</h3>
+<p>
+<script type="math/tex; mode=display">
+    b_{eq} = \frac{1}{\frac{1}{b_{1}} + \frac{1}{b_2}}
+</script>
+</p>
+<h2 id="mathematical-modeling-of-electrical-systems">Mathematical Modeling of Electrical Systems</h2>
+<ul>
+<li>Kirchoffs current law (Node Law)<ul>
+<li>the algebraic sum of all currents entering and leaving a node is zero.</li>
+<li>The sum of currents entering a node is equal to the sum of currents leaving the same node</li>
+</ul>
+</li>
+<li>Kirchoffs Node law (Loop Law)<ul>
+<li>At any given instant the algebraic sum of the voltages around a loop in an electrical circuit is zero</li>
+<li>The sum of the voltage drops is equal to sum sum of the voltage rises around a loop</li>
+</ul>
+</li>
+</ul>
+<h2 id="lrc-circuit">LRC Circuit</h2>
+<pre><code>- The inductance L (henry)
+- The resistance R (ohm)
+- The capacitance C (frand)
+</code></pre>
+<h2 id="operational-amplifier-op-amp">Operational Amplifier (Op amp)</h2>
+<p><img alt="op amp" src="../img/opamp.jpeg" /></p>
+<ul>
+<li>The input into the minus terminal is inverted and input to the positive is not. The opamp is defined by</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+  e_0 = K(e_2-e_1) = -K(e_1-e_2)
+</script>
+</p>
+<p>Where the e's are input voltages</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../chapter4/" class="btn btn-neutral float-right" title="Chapter4">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../chapter2/" class="btn btn-neutral" title="Chapter2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/UVicNotes/ELEC-360" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../chapter2/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../chapter4/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "ELEC 360\n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: \nsneville@ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360\n/\nELEC#^)\n\n\nLecture\n: Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM\n\n\nElliott Building 062\n\n\n\n\n\n\n\n\nLabs\n\n\n\n\n\n\n\n\nSection\n\n\nLab 1\n\n\nLab 2\n\n\nLab 3\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\nB01\n\n\nJan 26th\n\n\nFeb 15th\n\n\nMar 1st\n\n\nMar 15th\n\n\n\n\n\n\nB02\n\n\nFeb 2nd\n\n\nFeb 23rd\n\n\nMar 8th\n\n\nMar 22nd\n\n\n\n\n\n\nB03\n\n\nJan 29th\n\n\nFeb 19th\n\n\nMar 4th\n\n\nMar 18th\n\n\n\n\n\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
+            "text": "ELEC 360 \n\n\nCourse Website\n\n\n\n\nInstructor\n: Dr. Stephen W.  Neville\n\n\nOffice:\n EOW 441 or  ELW A228\n\n\nEmail\n: \nsneville@ece.uvic.ca\n\n\nAll   course  emails  MUST have   \u201cElec360:\u201d  in  the subject line    and MUST be sent    from    UVic    email   accounts\n\n\n\n\n\n\nWebsite Access\n: \nelec360\n/\nELEC#^)\n\n\nLecture\n: Tuesdays, Wednesdays and Fridays, 9:30 AM to 10:20 AM\n\n\nElliott Building 062\n\n\n\n\n\n\n\n\nLabs\n\n\n\n\n\n\n\n\nSection\n\n\nLab 1\n\n\nLab 2\n\n\nLab 3\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\nB01\n\n\nJan 26th\n\n\nFeb 15th\n\n\nMar 1st\n\n\nMar 15th\n\n\n\n\n\n\nB02\n\n\nFeb 2nd\n\n\nFeb 23rd\n\n\nMar 8th\n\n\nMar 22nd\n\n\n\n\n\n\nB03\n\n\nJan 29th\n\n\nFeb 19th\n\n\nMar 4th\n\n\nMar 18th\n\n\n\n\n\n\n\n\nRequired    Text\n\n\nModern   Control Engineering (5th Edition)\n\nKatsuhiko   Ogata\nYear: 2009\n\n\nAssessment:\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n10%\n\n\n\n\n\n\nLab\n\n\n10%\n\n\n\n\n\n\nMidterm\n\n\n30%\n\n\n\n\n\n\nFinal\n\n\n50%", 
             "title": "Home"
         }, 
         {
@@ -31,94 +31,99 @@
             "title": "Assessment:"
         }, 
         {
-            "location": "/2016-01-15/", 
-            "text": "Lecture 5 - Notes\n\n\nJanuary 19th, 2016\n\n\nTypes of Control Systems\n\n\nProportional Control\n\n\n\n\nThe control system reacts to errors proportionally\n\n\n\n\nClassifications of Industrial Controllers.\n\n\n\n\nAutomatic Controller\n an automatic controller compares the actual value of the plant output with the reference input (desired value) determines the deviation and produces a control signal that will reduce the deviation to zero or to a small value\n\n\n    e(t) \\text { or } E(S) \\text{ is the threshold of the actuating signal } \\\\\\\\\n    u(t) \\text{ or } U(s) \\text{ is the output of the controller }\n\n\n\n\n\n\n\nTwo-position (on\u2013off controllers)\n\n\n\n\nElement being controlled only has two states (typically on or off)\n\n\nSimple and inexpensive so they are widely used\n\n\ndifferential gap\n: The range through which the actuating error signal must move before the switching occurs\n\n\nThe thermostat of a room set at 20C might turn on at 18C and turn off at 22 having a differential gap of 4C\n\n\nThe basic premise is the system turns on when a threshold has been reached and off when the threshold reaches a desired value\n\n\n\n\n\n\n\n    u(t) = U_{1}, \\text{for } e(t) > 0 \\\\\\\\\n    = U_{2}, \\text{for} e(t) < 0 \\\\\\\\\n    U_{1} \\text{ is the ON value } \\\\\\\\\n    U_{2} \\text{ is the OFF value}\n\n\n\n\n\nProportional controllers\n\n\n\n\nA linear feedback control system where the controller output is proportional to the error signal\n\n\nUsed when a system is a relatively long response time\n\n\nWill control a system better because the error can be dampened before there is an output\n\n\n\n\n\n\nIs essentially an amplifier with an adjustable gain\n\n\n\n\n$$\n    u(t) = K_{p}e(t) \\\\\n    \\mathscr{L} \\text{{$u(t)$}} =  \\frac{U(s)}{E(s)} = K_{p} \\\\\n    K_{p} = \\text{proportional gain}\n$$\n\n\nIntegral controllers\n\n\n\n\nThe value of the controller output u(t) is changed at a rate proportional to the actuating error signal e(t)\n\n\nThis process starts slowly but overtime it begins to really eliminate errors\n\n\n\n\n\n\n\n    \\frac{du(t)}{dt} = K_{i} e(t) \\\\\\\\\n    \\text{ or } \\\\\\\\\n    u(t) = K_{i}\\int{0}^{t}e(t)dt\n\n\n\n\n\nDerivative Controller\n\n\n\n\nThe controller output is proportional to the rate of change of the measurement or error\n\n\nThe controller output is calculated by the rate of change of the deviation or error with time\n\n\n\n\n\n\n\n    u(t) = - k_{D} \\frac{dEr}{dt}\n\n\n\n\n\nAdditional Classifications of Industrial Controllers\n\n\nThe above controllers can be combined (through addition) to be the below combinations\n\n\n\n\nProportional-plus-integral controllers\n\n\nProportional-plus-derivative controllers\n\n\nProportional-plus-integral-plus-derivative controllers", 
-            "title": "2016 01 15"
+            "location": "/chapter2/", 
+            "text": "Chapter 2 Modeling of Control Systems\n\n\nState Space Representations of nth-Order Systems of Linear Differential Equations\n\n\nEquations of the form \n\n\n\n\nObtain a series of equations in terms of x where\n\n\n\n\nWhere $\\beta$  is\n\n\n\n\n\n\nNote that this will always result in a unique state solution if we choose our variables this way.\n\n\n$a_0$ must always be equal to 1\n\n\n\n\nThese beta values are chosen because they have the property", 
+            "title": "Chapter2"
         }, 
         {
-            "location": "/2016-01-15/#lecture-5-notes", 
-            "text": "January 19th, 2016", 
-            "title": "Lecture 5 - Notes"
+            "location": "/chapter2/#chapter-2-modeling-of-control-systems", 
+            "text": "", 
+            "title": "Chapter 2 Modeling of Control Systems"
         }, 
         {
-            "location": "/2016-01-15/#types-of-control-systems", 
-            "text": "Proportional Control   The control system reacts to errors proportionally", 
-            "title": "Types of Control Systems"
+            "location": "/chapter2/#state-space-representations-of-nth-order-systems-of-linear-differential-equations", 
+            "text": "Equations of the form    Obtain a series of equations in terms of x where   Where $\\beta$  is    Note that this will always result in a unique state solution if we choose our variables this way.  $a_0$ must always be equal to 1   These beta values are chosen because they have the property", 
+            "title": "State Space Representations of nth-Order Systems of Linear Differential Equations"
         }, 
         {
-            "location": "/2016-01-15/#classifications-of-industrial-controllers", 
-            "text": "Automatic Controller  an automatic controller compares the actual value of the plant output with the reference input (desired value) determines the deviation and produces a control signal that will reduce the deviation to zero or to a small value \n    e(t) \\text { or } E(S) \\text{ is the threshold of the actuating signal } \\\\\\\\\n    u(t) \\text{ or } U(s) \\text{ is the output of the controller }    Two-position (on\u2013off controllers)   Element being controlled only has two states (typically on or off)  Simple and inexpensive so they are widely used  differential gap : The range through which the actuating error signal must move before the switching occurs  The thermostat of a room set at 20C might turn on at 18C and turn off at 22 having a differential gap of 4C  The basic premise is the system turns on when a threshold has been reached and off when the threshold reaches a desired value    \n    u(t) = U_{1}, \\text{for } e(t) > 0 \\\\\\\\\n    = U_{2}, \\text{for} e(t) < 0 \\\\\\\\\n    U_{1} \\text{ is the ON value } \\\\\\\\\n    U_{2} \\text{ is the OFF value}", 
-            "title": "Classifications of Industrial Controllers."
+            "location": "/chapter3/", 
+            "text": "Chapter 3\n\n\nThis chapter looks at mathematical modeling of mechanical systems and electrical systems.\n\n\n Impeadence \n : is the measure of the opposition that a circuit presents to a current when a voltage is applied.\n\n\n3-2 Mathematical Modeling of Mechanical Systems\n\n\n\n\nTo obtain the equivalent spring constant from the above image\n\n\nIn parallel\n\n\n\n\n\n    k_1x + k_2x = F = k_{eq}x \\\\\\\\\n    k_{eq} = a_1 + k_2\n\n\n\n\n\nin series\n\n\n\n\n\n    k_{eq} = \\frac{1}{\\frac{1}{k_{1}} + \\frac{1}{k_2}}\n\n\n\n\n\nA \ndashpot\n is a device that provides viscous friction. The equation is modeled identically to the spring coefficients except that the derivative is the\n\n\nThe Viscous coefficient $ b $ follows a similar pattern\n\n\n\n\nIn parallel\n\n\n\n\n\n    f = b_{eq} (\\dot{y} - \\dot{x}) \\\\\\\\\n    b_{eq} = b_1 + b_2\n\n\n\n\n\nIn Series\n\n\n\n\n\n    b_{eq} = \\frac{1}{\\frac{1}{b_{1}} + \\frac{1}{b_2}}\n\n\n\n\n\nMathematical Modeling of Electrical Systems\n\n\n\n\nKirchoffs current law (Node Law)\n\n\nthe algebraic sum of all currents entering and leaving a node is zero.\n\n\nThe sum of currents entering a node is equal to the sum of currents leaving the same node\n\n\n\n\n\n\nKirchoffs Node law (Loop Law)\n\n\nAt any given instant the algebraic sum of the voltages around a loop in an electrical circuit is zero\n\n\nThe sum of the voltage drops is equal to sum sum of the voltage rises around a loop\n\n\n\n\n\n\n\n\nLRC Circuit\n\n\n- The inductance L (henry)\n- The resistance R (ohm)\n- The capacitance C (frand)\n\n\n\nOperational Amplifier (Op amp)\n\n\n\n\n\n\nThe input into the minus terminal is inverted and input to the positive is not. The opamp is defined by\n\n\n\n\n\n\n\n  e_0 = K(e_2-e_1) = -K(e_1-e_2)\n\n\n\n\n\nWhere the e's are input voltages", 
+            "title": "Chapter3"
         }, 
         {
-            "location": "/2016-01-15/#proportional-controllers", 
-            "text": "A linear feedback control system where the controller output is proportional to the error signal  Used when a system is a relatively long response time  Will control a system better because the error can be dampened before there is an output    Is essentially an amplifier with an adjustable gain   $$\n    u(t) = K_{p}e(t) \\\\\n    \\mathscr{L} \\text{{$u(t)$}} =  \\frac{U(s)}{E(s)} = K_{p} \\\\\n    K_{p} = \\text{proportional gain}\n$$", 
-            "title": "Proportional controllers"
+            "location": "/chapter3/#chapter-3", 
+            "text": "This chapter looks at mathematical modeling of mechanical systems and electrical systems.   Impeadence   : is the measure of the opposition that a circuit presents to a current when a voltage is applied.", 
+            "title": "Chapter 3"
         }, 
         {
-            "location": "/2016-01-15/#integral-controllers", 
-            "text": "The value of the controller output u(t) is changed at a rate proportional to the actuating error signal e(t)  This process starts slowly but overtime it begins to really eliminate errors    \n    \\frac{du(t)}{dt} = K_{i} e(t) \\\\\\\\\n    \\text{ or } \\\\\\\\\n    u(t) = K_{i}\\int{0}^{t}e(t)dt", 
-            "title": "Integral controllers"
+            "location": "/chapter3/#3-2-mathematical-modeling-of-mechanical-systems", 
+            "text": "To obtain the equivalent spring constant from the above image", 
+            "title": "3-2 Mathematical Modeling of Mechanical Systems"
         }, 
         {
-            "location": "/2016-01-15/#derivative-controller", 
-            "text": "The controller output is proportional to the rate of change of the measurement or error  The controller output is calculated by the rate of change of the deviation or error with time    \n    u(t) = - k_{D} \\frac{dEr}{dt}", 
-            "title": "Derivative Controller"
+            "location": "/chapter3/#in-parallel", 
+            "text": "k_1x + k_2x = F = k_{eq}x \\\\\\\\\n    k_{eq} = a_1 + k_2", 
+            "title": "In parallel"
         }, 
         {
-            "location": "/2016-01-15/#additional-classifications-of-industrial-controllers", 
-            "text": "The above controllers can be combined (through addition) to be the below combinations   Proportional-plus-integral controllers  Proportional-plus-derivative controllers  Proportional-plus-integral-plus-derivative controllers", 
-            "title": "Additional Classifications of Industrial Controllers"
+            "location": "/chapter3/#in-series", 
+            "text": "k_{eq} = \\frac{1}{\\frac{1}{k_{1}} + \\frac{1}{k_2}}   A  dashpot  is a device that provides viscous friction. The equation is modeled identically to the spring coefficients except that the derivative is the  The Viscous coefficient $ b $ follows a similar pattern", 
+            "title": "in series"
         }, 
         {
-            "location": "/2016-01-19/", 
-            "text": "Lecture 6 - Notes\n\n\nJanuary 19th, 2016\n\n\nBlock Diagrams\n\n\n\n\nA block diagram is a diagram of a system in which the system is represented as a a series of connected systems.\n\n\n\n\nBasic Structures\n\n\nSeries (Cascade)\n\n\n\n\nDefined by\n\n\n\n\n\n\n\nY(s) = G(s)X_{1}(s) + G_{2}(s)X_{2}(s)\n\n\n\n\n\n\n\nOpen Loop\n\n\n\n\nNo feedback loop therefore any disturbance or change in conditions may reduce the ability to complete the desired task\n\n\n\n\n\n\nParallel\n\n\n\n\n\n\nDefined by\n\n\nY(S) = G_{1}(s)G_{2}(s)X(s)\n\n\n\n\n\n\n\nClosed Loop (Feedback Loop)\n\n\n\n\nThe output of a system is routed back as an input to the system (the system \nfeeds back\n into itself)\n\n\n\n\n\n\n\n\nOpen-loop transfer function\n\n\n\n\n\n\n\n\\frac{Outputs}{Inputs} = \\frac{C(s)}{R(s)} = \\frac{G(s)}{1 + G(s)H(s)}\n\n\n\n\n\nSignal Flow Graph Rules\n\n\n\n\nSignal-Flow Graph (Mason Graph)\n\n\n\n\nSpecialized simplification of a block diagram\n\n\nSumming symbols and takeoff points are eliminated and are replaced with nodes\n\n\nThe components or subsystems are", 
-            "title": "2016 01 19"
+            "location": "/chapter3/#in-parallel_1", 
+            "text": "f = b_{eq} (\\dot{y} - \\dot{x}) \\\\\\\\\n    b_{eq} = b_1 + b_2", 
+            "title": "In parallel"
         }, 
         {
-            "location": "/2016-01-19/#lecture-6-notes", 
-            "text": "January 19th, 2016", 
-            "title": "Lecture 6 - Notes"
+            "location": "/chapter3/#in-series_1", 
+            "text": "b_{eq} = \\frac{1}{\\frac{1}{b_{1}} + \\frac{1}{b_2}}", 
+            "title": "In Series"
         }, 
         {
-            "location": "/2016-01-19/#block-diagrams", 
-            "text": "A block diagram is a diagram of a system in which the system is represented as a a series of connected systems.   Basic Structures  Series (Cascade)   Defined by    \nY(s) = G(s)X_{1}(s) + G_{2}(s)X_{2}(s)    Open Loop   No feedback loop therefore any disturbance or change in conditions may reduce the ability to complete the desired task    Parallel    Defined by \nY(S) = G_{1}(s)G_{2}(s)X(s)    Closed Loop (Feedback Loop)   The output of a system is routed back as an input to the system (the system  feeds back  into itself)     Open-loop transfer function    \n\\frac{Outputs}{Inputs} = \\frac{C(s)}{R(s)} = \\frac{G(s)}{1 + G(s)H(s)}   Signal Flow Graph Rules", 
-            "title": "Block Diagrams"
+            "location": "/chapter3/#mathematical-modeling-of-electrical-systems", 
+            "text": "Kirchoffs current law (Node Law)  the algebraic sum of all currents entering and leaving a node is zero.  The sum of currents entering a node is equal to the sum of currents leaving the same node    Kirchoffs Node law (Loop Law)  At any given instant the algebraic sum of the voltages around a loop in an electrical circuit is zero  The sum of the voltage drops is equal to sum sum of the voltage rises around a loop", 
+            "title": "Mathematical Modeling of Electrical Systems"
         }, 
         {
-            "location": "/2016-01-19/#signal-flow-graph-mason-graph", 
-            "text": "Specialized simplification of a block diagram  Summing symbols and takeoff points are eliminated and are replaced with nodes  The components or subsystems are", 
-            "title": "Signal-Flow Graph (Mason Graph)"
+            "location": "/chapter3/#lrc-circuit", 
+            "text": "- The inductance L (henry)\n- The resistance R (ohm)\n- The capacitance C (frand)", 
+            "title": "LRC Circuit"
         }, 
         {
-            "location": "/2016-01-20/", 
-            "text": "Lecture 7 - Notes\n\n\nJanuary 19th, 2016\n\n\n\n\n\n\n\n\nTerm\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nNode\n\n\nPoint representing a variable or a signal\n\n\n\n\n\n\nSource\n\n\nA node without incoming branches (input node)\n\n\n\n\n\n\nSink\n\n\nA node with incoming branches only (output nodes)\n\n\n\n\n\n\nMixed Node\n\n\nBoth incoming and outgoing nodes\n\n\n\n\n\n\nPath\n\n\nConnected branches in the direction of the branch arrows. If a node is crossed more than once it is closed\n\n\n\n\n\n\nForward Path\n\n\nFrom input node to output node without crossing nodes more than once\n\n\n\n\n\n\nLoop\n\n\nClosed path\n\n\n\n\n\n\nNon touching loops\n\n\nLoops that do not possess common nodes\n\n\n\n\n\n\n\n\nProperties of Signal Flow Graphs\n\n\n\n\nA branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected\n\n\nA node adds the signals of all incoming branches and transmits this sum to all outgoing branches\n\n\nA mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.\n\n\nFor a given system the signal flow graph is not unique\n\n\n\n\nMason's Formula\n\n\n\n\n\n    p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}\n\n\n\n\n\nState-Space Description\n\n\n\n\nTODO\n\n\n\n\nCanonical State-Space Representations of Continuous Systems\n\n\n\n\nTODO", 
-            "title": "2016 01 20"
+            "location": "/chapter3/#operational-amplifier-op-amp", 
+            "text": "The input into the minus terminal is inverted and input to the positive is not. The opamp is defined by    \n  e_0 = K(e_2-e_1) = -K(e_1-e_2)   Where the e's are input voltages", 
+            "title": "Operational Amplifier (Op amp)"
         }, 
         {
-            "location": "/2016-01-20/#lecture-7-notes", 
-            "text": "January 19th, 2016     Term  Definition      Node  Point representing a variable or a signal    Source  A node without incoming branches (input node)    Sink  A node with incoming branches only (output nodes)    Mixed Node  Both incoming and outgoing nodes    Path  Connected branches in the direction of the branch arrows. If a node is crossed more than once it is closed    Forward Path  From input node to output node without crossing nodes more than once    Loop  Closed path    Non touching loops  Loops that do not possess common nodes", 
-            "title": "Lecture 7 - Notes"
+            "location": "/chapter4/", 
+            "text": "Chapter 5 - Transient and Steady State Response Analyses\n\n\nThis chapter is concerned with system responses to aperiodic signals (such as step, ramp, acceleration, and impulse functions of time).\n\n\nThe Time Response is the response of the signal in the time domain (the continuous time function)\n\n\nThis time response is composed of the Transient response and the steady-state response\n\n\nThe \ntransient response\n is the transition between the initial state and the steady-state\n\n\nThe \nsteady state\n is the manner in which the system output behaves as t approaches infinity\n\n\nAbsolute Stability\n wether the system is stable or unstable\n\n\ncritically stable\n oscillations of the output continue forever\n\n\nRelative Stability\n\n\nSteady-State Error\n\n\nFirst Order Systems\n\n\nThis the unit step response.\n\n\n\n\nThis is the unit ramp response\n\n\n\n\nThis is the unit impulse response\n\n\n\n\nSecond Order System\n\n\nGeneral Equation of a Second order System\n\n\n\n\n$\\sigma$ is called the attenuation. Which is the reduction in the strength of a signal\n\n\n\n\n\n  \\sigma = \\omega_n \\zeta\n\n\n\n\n\n$\\omega_n$ the undamped natural frequency is the frequency that the system would oscillate at if the dampening ratio was decreased to zero.\n\n\n$\\omega_d$ is the observed damped natural frequency which is equal to\n\n\n\n\n\n  \\omega_n \\sqrt{1-\\zeta^2}\n\n\n\n\n\n$\\zeta$ is the damping ratio of the system. The damping ratio $\\zeta$ is the ratio of the actual damping B to the critical damping $B_c = 2\\sqrt{JK}$ or\n\n\nThis is a graph showing the graphs of the damped signals as you vary the damping ration $\\zeta$\n\n\n\n\nTransient Response Specifications\n\n\n$c(\\infty)$  is the steady state output\n\n\n\n\nDelay time $t_d$ time to reach 50 percent of desired output\n\n\nRise time, $t_r$ time to rise from 0 to 100%\n\n\n  t_r = \\frac{1}{w_d} tan^{-1} (- \\frac{\\omega_d}{\\sigma})\n\n\n\n\n\nPeak time, $t_p$ time to rise to the first peak\n\n\n\\frac{\\pi}{\\omega_d}\n\n\n\n\n\nMaximum percent overshoot, $M_p$\n\n\n\n\n\n\n\n  M_p = \\frac{c(t_p) - c(\\infty)}{c(\\infty)}\n\n\n\n\n\n\n\nSettling time, $t_s$ time to stay within a 2% or 5% tolerance of the final value\n\n\n\n\nThese are shown on the graph below", 
+            "title": "Chapter4"
         }, 
         {
-            "location": "/2016-01-20/#properties-of-signal-flow-graphs", 
-            "text": "A branch indicates the functional dependence of one signal on another. A signal passes through each branch that is connected  A node adds the signals of all incoming branches and transmits this sum to all outgoing branches  A mixed node with both incoming and outgoing branches can be treated as a sink by adding an outgoing branch of unity transmittance. But you cannot change a mixed node to a source by this method.  For a given system the signal flow graph is not unique", 
-            "title": "Properties of Signal Flow Graphs"
+            "location": "/chapter4/#chapter-5-transient-and-steady-state-response-analyses", 
+            "text": "This chapter is concerned with system responses to aperiodic signals (such as step, ramp, acceleration, and impulse functions of time).  The Time Response is the response of the signal in the time domain (the continuous time function)  This time response is composed of the Transient response and the steady-state response  The  transient response  is the transition between the initial state and the steady-state  The  steady state  is the manner in which the system output behaves as t approaches infinity  Absolute Stability  wether the system is stable or unstable  critically stable  oscillations of the output continue forever  Relative Stability  Steady-State Error", 
+            "title": "Chapter 5 - Transient and Steady State Response Analyses"
         }, 
         {
-            "location": "/2016-01-20/#masons-formula", 
-            "text": "p = \\frac{1}{\\Delta} \\sum_{k} P_{k} \\Delta_{k}", 
-            "title": "Mason's Formula"
+            "location": "/chapter4/#first-order-systems", 
+            "text": "This the unit step response.   This is the unit ramp response   This is the unit impulse response", 
+            "title": "First Order Systems"
         }, 
         {
-            "location": "/2016-01-20/#state-space-description", 
-            "text": "TODO", 
-            "title": "State-Space Description"
+            "location": "/chapter4/#second-order-system", 
+            "text": "", 
+            "title": "Second Order System"
         }, 
         {
-            "location": "/2016-01-20/#canonical-state-space-representations-of-continuous-systems", 
-            "text": "TODO", 
-            "title": "Canonical State-Space Representations of Continuous Systems"
+            "location": "/chapter4/#general-equation-of-a-second-order-system", 
+            "text": "$\\sigma$ is called the attenuation. Which is the reduction in the strength of a signal   \n  \\sigma = \\omega_n \\zeta   $\\omega_n$ the undamped natural frequency is the frequency that the system would oscillate at if the dampening ratio was decreased to zero.  $\\omega_d$ is the observed damped natural frequency which is equal to   \n  \\omega_n \\sqrt{1-\\zeta^2}   $\\zeta$ is the damping ratio of the system. The damping ratio $\\zeta$ is the ratio of the actual damping B to the critical damping $B_c = 2\\sqrt{JK}$ or  This is a graph showing the graphs of the damped signals as you vary the damping ration $\\zeta$", 
+            "title": "General Equation of a Second order System"
+        }, 
+        {
+            "location": "/chapter4/#transient-response-specifications", 
+            "text": "$c(\\infty)$  is the steady state output   Delay time $t_d$ time to reach 50 percent of desired output  Rise time, $t_r$ time to rise from 0 to 100% \n  t_r = \\frac{1}{w_d} tan^{-1} (- \\frac{\\omega_d}{\\sigma})   Peak time, $t_p$ time to rise to the first peak \n\\frac{\\pi}{\\omega_d}   Maximum percent overshoot, $M_p$    \n  M_p = \\frac{c(t_p) - c(\\infty)}{c(\\infty)}    Settling time, $t_s$ time to stay within a 2% or 5% tolerance of the final value   These are shown on the graph below", 
+            "title": "Transient Response Specifications"
         }
     ]
 }

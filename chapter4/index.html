@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Andrei Taylor">
+  
+  <title>Chapter4 - ELEC 360</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Chapter4";
+    var mkdocs_page_input_path = "chapter4.md";
+    var mkdocs_page_url = "/chapter4/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> ELEC 360</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../chapter2/">Chapter2</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../chapter3/">Chapter3</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Chapter4</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#chapter-5-transient-and-steady-state-response-analyses">Chapter 5 - Transient and Steady State Response Analyses</a></li>
+                
+                    <li><a class="toctree-l4" href="#first-order-systems">First Order Systems</a></li>
+                
+                    <li><a class="toctree-l4" href="#second-order-system">Second Order System</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">ELEC 360</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Chapter4</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/UVicNotes/ELEC-360" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="chapter-5-transient-and-steady-state-response-analyses">Chapter 5 - Transient and Steady State Response Analyses</h1>
+<p>This chapter is concerned with system responses to aperiodic signals (such as step, ramp, acceleration, and impulse functions of time).</p>
+<p>The Time Response is the response of the signal in the time domain (the continuous time function)</p>
+<p>This time response is composed of the Transient response and the steady-state response</p>
+<p>The <strong>transient response</strong> is the transition between the initial state and the steady-state</p>
+<p>The <strong>steady state</strong> is the manner in which the system output behaves as t approaches infinity</p>
+<p><strong>Absolute Stability</strong> wether the system is stable or unstable</p>
+<p><strong>critically stable</strong> oscillations of the output continue forever</p>
+<p><strong>Relative Stability</strong></p>
+<p><strong>Steady-State Error</strong></p>
+<h2 id="first-order-systems">First Order Systems</h2>
+<p>This the unit step response.</p>
+<p><img alt="" src="../img/first_order_system.jpeg" /></p>
+<p>This is the unit ramp response</p>
+<p><img alt="" src="../img/first_order_system_unit_rampresponse.jpeg" /></p>
+<p>This is the unit impulse response</p>
+<p><img alt="" src="../img/first_order_system_unit_impulse_response.jpeg" /></p>
+<h2 id="second-order-system">Second Order System</h2>
+<h3 id="general-equation-of-a-second-order-system">General Equation of a Second order System</h3>
+<p><img alt="" src="../img/second_order_system_unit_step_response.jpeg" /></p>
+<p>$\sigma$ is called the attenuation. Which is the reduction in the strength of a signal</p>
+<p>
+<script type="math/tex; mode=display">
+  \sigma = \omega_n \zeta
+</script>
+</p>
+<p>$\omega_n$ the undamped natural frequency is the frequency that the system would oscillate at if the dampening ratio was decreased to zero.</p>
+<p>$\omega_d$ is the observed damped natural frequency which is equal to</p>
+<p>
+<script type="math/tex; mode=display">
+  \omega_n \sqrt{1-\zeta^2}
+</script>
+</p>
+<p>$\zeta$ is the damping ratio of the system. The damping ratio $\zeta$ is the ratio of the actual damping B to the critical damping $B_c = 2\sqrt{JK}$ or</p>
+<p>This is a graph showing the graphs of the damped signals as you vary the damping ration $\zeta$</p>
+<p><img alt="" src="../img/varying_damping_ratio.jpeg" /></p>
+<h3 id="transient-response-specifications">Transient Response Specifications</h3>
+<p>$c(\infty)$  is the steady state output</p>
+<ol>
+<li>Delay time $t_d$ time to reach 50 percent of desired output</li>
+<li>Rise time, $t_r$ time to rise from 0 to 100%
+<script type="math/tex; mode=display">
+  t_r = \frac{1}{w_d} tan^{-1} (- \frac{\omega_d}{\sigma})
+</script>
+</li>
+<li>Peak time, $t_p$ time to rise to the first peak
+<script type="math/tex; mode=display">
+\frac{\pi}{\omega_d}
+</script>
+</li>
+<li>Maximum percent overshoot, $M_p$</li>
+</ol>
+<p>
+<script type="math/tex; mode=display">
+  M_p = \frac{c(t_p) - c(\infty)}{c(\infty)}
+</script>
+</p>
+<ol>
+<li>Settling time, $t_s$ time to stay within a 2% or 5% tolerance of the final value</li>
+</ol>
+<p>These are shown on the graph below</p>
+<p><img alt="" src="../img/transient_response_specifications.jpeg" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../chapter3/" class="btn btn-neutral" title="Chapter3"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/UVicNotes/ELEC-360" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../chapter3/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+
+</body>
+</html>
