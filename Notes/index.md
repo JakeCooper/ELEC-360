@@ -31,4 +31,3 @@ Year: 2009
 | Lab         | 10%    |
 | Midterm     | 30%    |
 | Final       | 50%    |
-
